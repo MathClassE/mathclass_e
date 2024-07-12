@@ -1,55 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MathClass E</title>
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="website icon" type="png" href="assets/icon.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <topbar>
-                <logo>
-                    <img src="assets/secondary.png" alt="logo" width="250">
-                </logo>
-                <menu>
-                    <ul style="position: fixed;top: 0;right: 0;">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#member">Member</a></li>
-                        <li><a href="#activities">Activities</a></li>
-                        <li><a href="#contact">Contact Us</a></li>
-                    </ul>
-                </menu>
-            </topbar>
-        </nav>
-    </header>
-    <main>
-        <h1>MathClass E</h1>
-        <div id="home" style="height: 100vh;">
-            <h2>This is Home</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iste repellendus, maxime necessitatibus vitae ea aut est dolor porro nesciunt sapiente aperiam optio ratione aliquid!</p>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="assets/secondary 2w.png" alt="logo" height="40" class="d-inline-block align-text-top">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="#about">About Us</a>
+            <a class="nav-link" href="#members">Members</a>
+            <a class="nav-link" href="#activities">Activities</a>
+            <a class="nav-link" href="#achivement">Achivement</a>
+            <a class="nav-link" href="#contact">Contact Us</a>
+          </div>
         </div>
-        <div id="about" style="height: 100vh;">
-            <h2>This is About</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iste repellendus, maxime necessitatibus vitae ea aut est dolor porro nesciunt sapiente aperiam optio ratione aliquid!</p>
-        </div>
-        <div id="member" style="height: 100vh;">
-            <h2>This is Member</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iste repellendus, maxime necessitatibus vitae ea aut est dolor porro nesciunt sapiente aperiam optio ratione aliquid!</p>
-        </div>
-        <div id="activities" style="height: 100vh;">
-            <h2>This is Activities</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iste repellendus, maxime necessitatibus vitae ea aut est dolor porro nesciunt sapiente aperiam optio ratione aliquid!</p>
-        </div>
-        <div id="contact" style="height: 100vh;">
-            <h2>This is Contact</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iste repellendus, maxime necessitatibus vitae ea aut est dolor porro nesciunt sapiente aperiam optio ratione aliquid!</p>
-        </div>
-    </main>
-    <footer></footer>
-    <script src="script/script.js"></script>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div id="about">
+      <h1>MathClass E</h1>
+      <!-- About Us -->
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quam nostrum ratione ut temporibus, similique ducimus eligendi, numquam aspernatur perspiciatis placeat quidem consectetur! Earum eos laborum ipsum reprehenderit quos molestias dolore, doloribus accusantium totam iste magni autem tenetur, molestiae excepturi in illum laudantium beatae nulla officiis, ducimus sequi mollitia. Alias!</p>
+    </div>
+    <div id="members">
+      <!-- Members -->
+      <h1>Members</h1>
+      <!-- untuk tampilan setiap gambar mungkin bisa menggunakan flex atau grid, yang detail bisa dibuat seperti pop up -->
+    </div>
+    <div id="activities">
+      <!-- Activities -->
+      <h1>Activities</h1>
+      <!-- tampilan bisa disesuaikan dengan yang ada pada design, gambar dengan nama aktivitas, isi berupa kegiatan kelas -->
+    </div>
+    <div id="achivement">
+      <!-- Achivement -->
+      <h1>Achivement</h1>
+      <!-- tampilan bisa disesuaikan dengan yang ada pada design, gambar dengan nama penghargaan, isi berupa sertifikat lomba -->
+    </div>
+    <div id="contact">
+      <!-- Contact Us -->
+      <h1>Contact Us</h1>
+      <!-- email: mathisclasse@gmail.com -->
+    </div>
+  </main>
+  <footer></footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="script/script.js"></script>
 </body>
 </html>
